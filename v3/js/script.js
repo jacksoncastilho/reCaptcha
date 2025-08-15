@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event){
                 }
             }
 
-            xhttp.open("POST", "/560460/reCaptcha/v3/login.php", true)
+            xhttp.open("POST", "/reCaptcha/v3/login.php", true)
             xhttp.send(new FormData(form))
         })
     })
